@@ -22,7 +22,7 @@ a:hover {
   color: #535bf2;
 }
 
-body {
+/* body {
   margin: 0;
   display: flex;
   place-items: center;
@@ -30,26 +30,36 @@ body {
   min-height: 100vh;
   background-image: url('/src/assets/Tools.jpg');
   justify-content: center;
-}
+} */
 
-.center-heading {
+/* .center-heading {
   font-family: cursive;
   font-size: xxx-large;
   font-style: italic;
   color: darkgrey;
   background: linear-gradient(45deg, red, transparent);
-}
+} */
 
-.center-container {
+/* .center-container {
   background: black;
   border: gray 5px solid;
   width: 1080px;
   height: 600px;
-}
+} */
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+.homepage-grid {
+  margin: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.homepage-grid img {
+  border-radius: 30px;
 }
 
 button {
